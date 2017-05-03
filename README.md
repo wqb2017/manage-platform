@@ -314,8 +314,21 @@ import 'element-ui/lib/theme-default/index.css';    // 默认主题
 5、 npm官网 http://webpack.github.io/docs/configuration.html
 
 6、vue-router官网 https://github.com/vuejs/vue-router
-    中文官网：https://github.com/vuejs/vue-router/tree/dev/docs/zh-cn
 
+中文官网：https://github.com/vuejs/vue-router/tree/dev/docs/zh-cn
 vue-router作用：
 用 Vue.js + vue-router 创建单页应用，是非常简单的。使用 Vue.js 时，我们就已经把组件组合成一个应用了，当你要把 vue-router 加进来，只需要配置组件和路由映射，然后告诉 vue-router 在哪里渲染它们。下面是个基本例子：
  +用 Vue.js + vue-router 创建单页应用，是非常简单的。使用 Vue.js ，我们已经可以通过组合组件来组成应用程序，当你要把 vue-router 添加进来，我们需要做的是，将组件(components)映射到路由(routes)，然后告诉 vue-router 在哪里渲染它们
+
+7、vue-axios官网 https://github.com/mzabriskie/axios
+
+中文翻译：http://www.cnblogs.com/libin-1/p/6607945.html
+vue-axios作用：
+    从浏览器中创建 XMLHttpRequest
+    从 node.js 发出 http 请求
+    支持 Promise API
+    拦截请求和响应
+    转换请求和响应数据
+    取消请求
+    自动转换JSON数据
+
