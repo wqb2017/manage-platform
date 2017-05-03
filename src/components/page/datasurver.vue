@@ -40,7 +40,6 @@
         </el-dialog>
     </div>
 </template>
-
 <script>
     export default {
         data() {
