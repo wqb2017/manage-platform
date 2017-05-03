@@ -62,7 +62,7 @@
 
 ## 利用vue-cli手脚架构建上述项目 ##
 
-    官网： https://github.com/vuejs/vue-cli
+    官网 [vue-cli](https://github.com/vuejs/vue-cli)
 
     安装步骤
     $ npm install -g vue-cli
