@@ -1,15 +1,15 @@
-# 基于vue2+elementUI+webpack前端框架快速开发
+# 基于vue2+elementUI+webpack前端框架快速开发 #
 
 ## 前言 ##
 
-分享如何使用vue-cli手脚架实现快速建站，并用vue组件化，模块化实现可复用模块；介绍elementUI快速开发和使用；最后介绍webpack实现项目的打包压缩加版本号上线。
+如何使用vue-cli手脚架实现快速建站，并用vue组件化，模块化实现可复用模块；介绍elementUI快速开发和使用；最后介绍webpack实现项目的打包压缩加版本号上线。
 
 ## 功能 ##
 - [x] Element UI
 - [x] 登录/注销
 - [x] 表格
 - [x] 表单
-- [x] 图表 :bar_chart:
+- [x] 图表
 - [x] markdown编辑器
 - [x] 图片拖拽/裁剪上传
 - [x] 支持切换主题色 :sparkles:
@@ -59,6 +59,18 @@
 
 	// 执行构建命令，生成的dist文件夹放在服务器下即可访问
 	npm run build
+
+## 利用vue-cli手脚架构建上述项目 ##
+
+    官网： https://github.com/vuejs/vue-cli
+
+    安装步骤
+    $ npm install -g vue-cli
+    $ vue init webpack my-project
+    $ cd my-project
+    $ npm install
+    $ npm run dev
+
 
 ## 组件使用说明与演示 ##
 
@@ -290,3 +302,7 @@ import 'element-ui/lib/theme-default/index.css';    // 默认主题
 ```
 
 第三步：打开 src/components/common/Sidebar.vue 文件，找到 el-menu 标签，把 theme="dark" 去掉即可。
+
+## 插件官网 ##
+
+1、 vue官网 http://cn.vuejs.org/v2/guide/installation.html
