@@ -63,11 +63,10 @@
         top:50%;
         width:100%;
         /*margin-top: -230px;*/
-        margin-top: 110px;
+        margin-top: 170px;
         text-align: center;
         font-size:30px;
-        color: #4db3ff;
-
+        color: #ffffff;
     }
     .ms-login{
         position: absolute;
@@ -76,7 +75,7 @@
         width:300px;
         height:160px;
         /*margin:-150px 0 0 -190px;*/
-        margin: 150px 0 0 -190px;
+        margin: 240px 0 0 -190px;
         padding:40px;
         border-radius: 5px;
         background: #fff;

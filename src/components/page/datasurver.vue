@@ -21,6 +21,23 @@
                 label="地址">
             </el-table-column>
         </el-table>
+        <el-dialog  v-model="dialogTableVisible">
+            <el-form ref="formManifest" label-position="left" label-width="80px">
+                <el-form-item label="日  期" prop="Date">
+                    <el-date-picker></el-date-picker>
+                </el-form-item>
+                <el-form-item label="金  额" prop="Cost">
+                    <el-input></el-input>
+                </el-form-item>
+                <el-form-item label="备  注" prop="Remark">
+                    <el-input></el-input>
+                </el-form-item>
+                <el-form-item>
+                    <el-button type="primary" @click="dialogTableVisible=false">确 定</el-button>
+                    <el-button type="primary" @click="dialogTableVisible=false">取 消</el-button>
+                </el-form-item>
+            </el-form>
+        </el-dialog>
     </div>
 </template>
 
@@ -28,6 +45,7 @@
     export default {
         data() {
             return {
+                dialogTableVisible:false,
                 tableData: [{
                     date: '2016-05-02',
                     name: '王小虎',
@@ -80,22 +98,7 @@
                 });
             },
             editManage : function () {
-                this.$prompt('请输入邮箱', '提示', {
-                    confirmButtonText: '确定',
-                    cancelButtonText: '取消',
-                    inputPattern: /[\w!#$%&'*+/=?^_`{|}~-]+(?:\.[\w!#$%&'*+/=?^_`{|}~-]+)*@(?:[\w](?:[\w-]*[\w])?\.)+[\w](?:[\w-]*[\w])?/,
-                    inputErrorMessage: '邮箱格式不正确'
-                }).then(({ value }) => {
-                    this.$message({
-                        type: 'success',
-                        message: '你的邮箱是: ' + value
-                    });
-                }).catch(() => {
-                    this.$message({
-                        type: 'info',
-                        message: '取消输入'
-                    });
-                });
+                this.dialogTableVisible = true;
             }
         }
     }

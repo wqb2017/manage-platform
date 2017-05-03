@@ -8,3 +8,9 @@
     @import "../static/css/color-dark.css";     /*深色主题*/
     /*@import "../static/css/theme-green/color-green.css";   !*浅绿色主题*!*/
 </style>
+
+<style>
+    body{
+        background-color: #48576a;
+    }
+</style>
