@@ -47,8 +47,8 @@
 
 ## 安装步骤 ##
 
-	git clone https://github.com/lin-xin/manage-system.git		// 把模板下载到本地
-	cd manage-system											// 进入模板目录
+	git clone https://github.com/wqb2017/manage-platform		// 把模板下载到本地
+	cd manage-platform										// 进入模板目录
 	npm install													// 安装项目依赖，等待安装完成之后
 
 ## 本地开发 ##
@@ -291,12 +291,3 @@ import 'element-ui/lib/theme-default/index.css';    // 默认主题
 ```
 
 第三步：打开 src/components/common/Sidebar.vue 文件，找到 el-menu 标签，把 theme="dark" 去掉即可。
-
-## 项目截图 ##
-### 默认皮肤 ###
-
-![Image text](https://github.com/lin-xin/manage-system/raw/master/screenshots/wms1.png)
-
-### 浅绿色皮肤 ###
-
-![Image text](https://github.com/lin-xin/manage-system/raw/master/screenshots/wms2.png)
