@@ -61,8 +61,8 @@
 	npm run build
 
 ## 利用vue-cli手脚架构建上述项目 ##
-
-    访问地址：[vue-cli](https://github.com/vuejs/vue-cli)
+### vue-cli ###
+创建并启动一个带热重载、保存时静态检查以及可用于生产环境的构建配置的项目。访问地址：[vue-cli](https://github.com/vuejs/vue-cli)
 
     安装步骤
     $ npm install -g vue-cli
