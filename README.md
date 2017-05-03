@@ -1,9 +1,8 @@
-# 基于vue2+elementUI的后台管理系统#
-基于Vue.js 2.x系列 + Element UI 的后台管理系统
+# 基于vue2+elementUI+webpack前端框架快速开发#
 
 ## 前言 ##
 
-基于vue.js,使用vue-cli脚手架快速生成项目目录，引用Element UI组件库，方便开发快速简洁好看的组件。分离颜色样式，支持手动切换主题色，而且很方便使用自定义主题色。
+分享如何使用vue-cli手脚架实现快速建站，并用vue组件化，模块化实现可复用模块；介绍elementUI快速开发和使用；最后介绍webpack实现项目的打包压缩加版本号上线。
 
 ## 功能 ##
 - [x] Element UI
