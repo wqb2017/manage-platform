@@ -324,11 +324,11 @@ vue-router作用：
 
 中文翻译：http://www.cnblogs.com/libin-1/p/6607945.html
 vue-axios作用：
-    从浏览器中创建 XMLHttpRequest
-    从 node.js 发出 http 请求
-    支持 Promise API
-    拦截请求和响应
-    转换请求和响应数据
-    取消请求
-    自动转换JSON数据
+1、从浏览器中创建 XMLHttpRequest
+2、从 node.js 发出 http 请求
+3、支持 Promise API
+4、拦截请求和响应
+5、转换请求和响应数据
+6、取消请求
+7、自动转换JSON数据
 
