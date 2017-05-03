@@ -1,12 +1,9 @@
 # 基于vue2+elementUI的后台管理系统#
-基于Vue.js 2.x系列 + Element UI 的后台管理系统解决方案。[线上地址](http://work.omwteam.com/)
-
-[English document](https://github.com/lin-xin/manage-system/blob/master/README_EN.md)
+基于Vue.js 2.x系列 + Element UI 的后台管理系统
 
 ## 前言 ##
-之前在公司用了Vue + Element组件库做了个后台管理系统，基本很多组件可以直接引用组件库的，但是也有一些需求无法满足。像图片裁剪上传、富文本编辑器、图表等这些在后台管理系统中很常见的功能，就需要引用其他的组件才能完成。从寻找组件，到使用组件的过程中，遇到了很多问题，也积累了宝贵的经验。所以我就把开发这个后台管理系统的经验，总结成这个后台管理系统解决方案。
 
-该方案作为一套多功能的后台框架模板，适用于绝大部分的后台管理系统（Web Management System）开发。基于vue.js,使用vue-cli脚手架快速生成项目目录，引用Element UI组件库，方便开发快速简洁好看的组件。分离颜色样式，支持手动切换主题色，而且很方便使用自定义主题色。
+基于vue.js,使用vue-cli脚手架快速生成项目目录，引用Element UI组件库，方便开发快速简洁好看的组件。分离颜色样式，支持手动切换主题色，而且很方便使用自定义主题色。
 
 ## 功能 ##
 - [x] Element UI
@@ -14,11 +11,9 @@
 - [x] 表格
 - [x] 表单
 - [x] 图表 :bar_chart:
-- [x] 富文本编辑器
 - [x] markdown编辑器
 - [x] 图片拖拽/裁剪上传
 - [x] 支持切换主题色 :sparkles:
-
 
 ## 目录结构介绍 ##
 
@@ -35,7 +30,6 @@
 	|           |-- BaseForm.vue         // 基础表单
 	|           |-- BaseTable.vue        // 基础表格
 	|           |-- Login.vue          	 // 登录
-	|           |-- Markdown.vue         // markdown组件
 	|           |-- MixCharts.vue        // 混合图表
 	|           |-- Readme.vue           // 自述组件
 	|           |-- Upload.vue           // 图片上传
