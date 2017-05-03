@@ -114,7 +114,7 @@ $ cnpm i element-ui@1.0.9
 
 4.4 预览项目 npm run dev
 
-5. 引入路由工具vue-router，切换视图
+5、 引入路由工具vue-router，切换视图
 
 5.1 安装vue-router
 cnpm install vue-router --save-dev
@@ -184,7 +184,7 @@ export default [
 </script>
 ```
 
-6. 在页面随便写点东西，测试一下，路由是否配置成功
+6、 在页面随便写点东西，测试一下，路由是否配置成功
 
 ```JavaScript
 <template>
@@ -201,7 +201,7 @@ export default [
 </script>
 ```
 
-7. 配置二级路由
+7、 配置二级路由
 
 ```JavaScript
 import activePublic from './page/activePublic/index.vue'
