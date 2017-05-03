@@ -102,7 +102,6 @@
         }
     }
 </script>
-
 <style>
     .button-right{
         float: right;
