@@ -201,7 +201,7 @@ export default [
 </script>
 ```
 
-7. 在router-config.js文件中配置二级路由
+7. 配置二级路由
 
 ```JavaScript
 import activePublic from './page/activePublic/index.vue'
@@ -210,7 +210,6 @@ import step1 from './page/activePublic/step1.vue'
 import step2 from './page/activePublic/step2.vue'
 import step3 from './page/activePublic/step3.vue'
 import step4 from './page/activePublic/step4.vue'
-
 export default [
   {
     path:'/activePublic',component:activePublic,
