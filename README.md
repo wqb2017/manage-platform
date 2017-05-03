@@ -311,6 +311,8 @@ import 'element-ui/lib/theme-default/index.css';    // 默认主题
 
 4、 webpack官网 http://webpack.github.io/docs/configuration.html
 
+中文文档：https://segmentfault.com/a/1190000006843916
+
 5、 npm官网 http://webpack.github.io/docs/configuration.html
 
 6、vue-router官网 https://github.com/vuejs/vue-router
