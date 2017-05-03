@@ -314,6 +314,7 @@ import 'element-ui/lib/theme-default/index.css';    // 默认主题
 5、 npm官网 http://webpack.github.io/docs/configuration.html
 
 6、vue-router官网 https://github.com/vuejs/vue-router
+    中文官网：https://github.com/vuejs/vue-router/tree/dev/docs/zh-cn
 
 vue-router作用：
 用 Vue.js + vue-router 创建单页应用，是非常简单的。使用 Vue.js 时，我们就已经把组件组合成一个应用了，当你要把 vue-router 加进来，只需要配置组件和路由映射，然后告诉 vue-router 在哪里渲染它们。下面是个基本例子：
