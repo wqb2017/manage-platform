@@ -12,7 +12,7 @@
 - [x] 图表
 - [x] markdown编辑器
 - [x] 图片拖拽/裁剪上传
-- [x] 支持切换主题色 :sparkles:
+- [x] 支持切换主题色
 
 ## 目录结构介绍 ##
 
@@ -30,7 +30,6 @@
 	|           |-- BaseTable.vue        // 基础表格
 	|           |-- Login.vue          	 // 登录
 	|           |-- MixCharts.vue        // 混合图表
-	|           |-- Readme.vue           // 自述组件
 	|           |-- Upload.vue           // 图片上传
 	|           |-- VueEditor.vue        // 富文本编辑器
 	|           |-- VueTable.vue         // vue表格组件
@@ -302,6 +301,10 @@ import 'element-ui/lib/theme-default/index.css';    // 默认主题
 
 第三步：打开 src/components/common/Sidebar.vue 文件，找到 el-menu 标签，把 theme="dark" 去掉即可。
 
-## 插件官网 ##
+### 插件官网 ###
 
 1、 vue官网 http://cn.vuejs.org/v2/guide/installation.html
+2、 elementUI官网 http://element.eleme.io/#/zh-CN/component/installation
+3、 webpack官网 http://webpack.github.io/docs/configuration.html
+4、 webpack官网 http://webpack.github.io/docs/configuration.html
+5、 npm官网 http://webpack.github.io/docs/configuration.html
