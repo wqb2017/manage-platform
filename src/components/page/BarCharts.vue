@@ -22,7 +22,6 @@
         data: function(){
             return {
                 pie: {
-                    backgroundColor: '#2c343c',
                     title: {
                         text: 'Customized Pie',
                         left: 'center',
