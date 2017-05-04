@@ -43,11 +43,8 @@
    </script>
    ```
 
-   配置package
-    ```JavaScript
-    "dev": "webpack-dev-server --inline --hot";
-   </script>
-   ```
+   配置package  
+   "dev": "webpack-dev-server --inline --hot";
 
    运行 dev
         npm run dev
