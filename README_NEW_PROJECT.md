@@ -10,7 +10,7 @@
         |-webpack.config.js webpack配置文件
         |-package.json 项目及工具的依赖配置文件
 
-   所需loader  
+   所需loader
        vue-loader  vue-style-loader vue-html-loader
        webpack  //npm install webpack webpack-dev-server --save-dev
        babel //npm babel-loader babel-core babel-preset-es2015
@@ -45,10 +45,9 @@
 
    配置package
     ```JavaScript
-          "scripts": {
-            "dev": "webpack-dev-server --inline --hot"
-          },
-
+    "scripts": {
+        "dev": "webpack-dev-server --inline --hot"
+    },
    </script>
    ```
 
