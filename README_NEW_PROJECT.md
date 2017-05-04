@@ -43,10 +43,10 @@
    </script>
    ```
 
-   配置package  
+   配置package
    "dev": "webpack-dev-server --inline --hot";
 
-   运行 dev
+   运行dev
         npm run dev
 
    访问 localhost:8082
