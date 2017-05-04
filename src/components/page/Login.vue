@@ -62,8 +62,7 @@
         position: absolute;
         top:50%;
         width:100%;
-        /*margin-top: -230px;*/
-        margin-top: 170px;
+        margin-top: -167px;
         text-align: center;
         font-size:30px;
         color: #ffffff;
@@ -74,8 +73,7 @@
         top:50%;
         width:300px;
         height:160px;
-        /*margin:-150px 0 0 -190px;*/
-        margin: 240px 0 0 -190px;
+        margin:-100px 0 0 -190px;
         padding:40px;
         border-radius: 5px;
         background: #fff;

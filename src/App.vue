@@ -10,7 +10,8 @@
 </style>
 
 <style>
-    body{
-        background-color: #48576a;
+    .layout{
+        height: 100%;
+        width: 100%;
     }
 </style>
