@@ -14,16 +14,12 @@ export default new Router({
             component: resolve => require(['../components/common/Home.vue'], resolve),
             children:[
                 {
-                    path: '/',
-                    component: resolve => require(['../components/page/Readme.vue'], resolve)
-                },
-                {
                     path: '/basetable',
                     component: resolve => require(['../components/page/BaseTable.vue'], resolve)
                 },
                 {
                     path: '/vuetable',
-                    component: resolve => require(['../components/page/VueTable.vue'], resolve)     // vue-datasource组件
+                    component: resolve => require(['../components/page/VueTable.vue'], resolve)
                 },
                 {
                     path: '/baseform',
@@ -31,28 +27,28 @@ export default new Router({
                 },
                 {
                     path: '/vueeditor',
-                    component: resolve => require(['../components/page/VueEditor.vue'], resolve)    // Vue-Quill-Editor组件
+                    component: resolve => require(['../components/page/VueEditor.vue'], resolve)
                 },
                 {
                     path: '/upload',
-                    component: resolve => require(['../components/page/Upload.vue'], resolve)       // Vue-Core-Image-Upload组件
+                    component: resolve => require(['../components/page/Upload.vue'], resolve)
                 },
                 {
                     path: '/basecharts',
-                    component: resolve => require(['../components/page/BaseCharts.vue'], resolve)   // vue-echarts-v3组件
+                    component: resolve => require(['../components/page/BaseCharts.vue'], resolve)
                 },
                 {
                     path: '/mixcharts',
-                    component: resolve => require(['../components/page/MixCharts.vue'], resolve)    // vue-echarts-v3组件
+                    component: resolve => require(['../components/page/MixCharts.vue'], resolve)
                 },
                 {
                     path: '/mixcharts',
-                    component: resolve => require(['../components/page/MixCharts.vue'], resolve)    // vue-echarts-v3组件
+                    component: resolve => require(['../components/page/MixCharts.vue'], resolve)
                 }
                 ,
                 {
                     path: '/datasurver',
-                    component: resolve => require(['../components/page/datasurver.vue'], resolve)    // vue-echarts-v3组件
+                    component: resolve => require(['../components/page/Datasurver.vue'], resolve)
                 }
             ]
         },

@@ -41,7 +41,7 @@
                 self.$refs[formName].validate((valid) => {
                     if (valid) {
                         localStorage.setItem('ms_username',self.ruleForm.username);
-                        self.$router.push('/readme');
+                        self.$router.push('/basetable');
                     } else {
                         throw '出错了!!';
                         return false;
