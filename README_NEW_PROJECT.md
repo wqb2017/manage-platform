@@ -45,7 +45,7 @@
 
    配置package
     ```JavaScript
-    "dev": "webpack-dev-server --inline --hot"
+    "dev": "webpack-dev-server --inline --hot";
    </script>
    ```
 
