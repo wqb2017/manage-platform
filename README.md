@@ -29,8 +29,7 @@
 	|           |-- BaseForm.vue         // 基础表单
 	|           |-- BaseTable.vue        // 基础表格
 	|           |-- Login.vue          	 // 登录
-	|           |-- MixCharts.vue        // 混合图表
-	|           |-- Upload.vue           // 图片上传
+	|           |-- BarCharts.vue        // 饼图图表
 	|           |-- VueEditor.vue        // 富文本编辑器
 	|           |-- VueTable.vue         // vue表格组件
 	|   |-- App.vue                      // 页面入口文件

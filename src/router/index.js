@@ -30,22 +30,13 @@ export default new Router({
                     component: resolve => require(['../components/page/VueEditor.vue'], resolve)
                 },
                 {
-                    path: '/upload',
-                    component: resolve => require(['../components/page/Upload.vue'], resolve)
-                },
-                {
                     path: '/basecharts',
                     component: resolve => require(['../components/page/BaseCharts.vue'], resolve)
                 },
                 {
-                    path: '/mixcharts',
-                    component: resolve => require(['../components/page/MixCharts.vue'], resolve)
+                    path: '/barCharts',
+                    component: resolve => require(['../components/page/BarCharts.vue'], resolve)
                 },
-                {
-                    path: '/mixcharts',
-                    component: resolve => require(['../components/page/MixCharts.vue'], resolve)
-                }
-                ,
                 {
                     path: '/datasurver',
                     component: resolve => require(['../components/page/Datasurver.vue'], resolve)
